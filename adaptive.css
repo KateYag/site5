@@ -1,0 +1,278 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 950px;
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .yes {
+        font-size: 36px;
+        text-align: center;
+    }
+    .timout-title {
+        font-size: 55px;
+    }
+
+}
+
+/*@media (max-width: 625px) {*/
+/*    .container {*/
+/*        max-width: 392px;*/
+/*    }*/
+
+
+
+/*}*/
+
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 380px;
+    }
+
+
+    .invite-date {
+        font-size: 23px;
+    }
+    .invite-name {
+        font-size: 36px;
+    }
+
+    .invite svg {
+        width: 300px;
+    }
+    .yes {
+        font-size: 23px;
+    }
+
+    .dear {
+        font-size: 36px;
+    }
+    .main-text {
+        font-size: 20px;
+    }
+    .main-reg {
+        font-size: 22px;
+    }
+    .main-address {
+        font-size: 22px;
+    }
+    .main-address-text {
+        font-size: 20px;
+    }
+    .main-info a {
+        font-size: 18px;
+    }
+
+    .dresscode-title {
+        font-size: 36px;
+    }
+
+    .dresscode-info-text, .dresscode-contact-text {
+        font-size: 20px;
+    }
+    .dresscode-info-blocks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .dresscode-info-block {
+        width: 80px;
+        height: 60px;
+    }
+    .dresscode-contact-name {
+        font-size: 22px;
+    }
+    .dresscode a {
+        font-size: 22px;
+    }
+
+    .wishes-title {
+        font-size: 36px;
+    }
+
+    .wishes-text {
+        font-size: 20px;
+    }
+
+    .wishes-text svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .timout-title {
+        font-size: 30px;
+    }
+
+
+    .time-box span {
+        font-size: 28px;
+    }
+    .time-box p {
+        font-size: 12px;
+    }
+
+    .timout-title {
+        margin-bottom: 0;
+    }
+
+}
+@media (max-width: 425px) {
+    .container {
+        max-width: 380px;
+    }
+
+
+    .invite {
+        padding-top: 50px;
+    }
+
+    .invite-date {
+        font-size: 20px;
+    }
+    .invite-name {
+        font-size: 26px;
+    }
+    .invite svg {
+        width: 210px;
+        height: 210px;
+    }
+
+    .yes {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .invite {
+        padding-top: 50px;
+    }
+
+    .invite-date {
+        font-size: 19px;
+    }
+    .invite-name {
+        font-size: 30px;
+    }
+    .invite svg {
+        width: 210px;
+        height: 210px;
+    }
+
+    .yes {
+        font-size: 19px;
+    }
+    .invite .container, .main .container, .dresscode .container, .wishes .container, .timout .container {
+        padding: 44px;
+    }
+
+    .invite .container::before, .main .container::before, .dresscode .container::before, .wishes .container::before, .timout .container::before {
+
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .dear {
+        font-size: 30px;
+    }
+
+    .main-text {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .main-reg {
+        font-size: 18px;
+    }
+    .main-address {
+        font-size: 18px;
+    }
+    .main-address-text {
+        font-size: 16px;
+    }
+    .main-info a {
+        font-size: 15px;
+    }
+    .dresscode-title {
+        font-size: 30px;
+    }
+    .dresscode-info-text, .dresscode-contact-text {
+        font-size: 16px;
+    }
+    .dresscode-info-blocks {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .dresscode-info-block {
+        width: 60px;
+        height: 40px;
+    }
+    .dresscode-info-text, .dresscode-contact-text {
+        margin: 10px 0;
+    }
+
+    .dresscode-contact {
+        font-size: 30px;
+    }
+    .dresscode-contact-name {
+        font-size: 16px;
+    }
+    .dresscode a {
+        font-size: 16px;
+    }
+
+    .wishes-title {
+        font-size: 30px;
+    }
+
+    .wishes-text {
+        font-size: 16px;
+    }
+    .wishes-text svg {
+        width: 55px;
+        height: 55px;
+    }
+    .timout-title {
+        font-size: 25px;
+    }
+    .time-box {
+        padding: 6px;
+    }
+
+}
+
+@media (max-width: 334px) {
+    .container {
+        max-width: 280px;
+    }
+    .timout-title {
+        font-size: 23px;
+    }
+    .time-box span {
+        font-size: 22px;
+    }
+    .time-box p {
+        font-size: 10px;
+    }
+    .invite .container, .main .container, .dresscode .container, .wishes .container, .timout .container {
+        padding: 35px;
+    }
+
+}
