@@ -132,7 +132,9 @@
     .container {
         max-width: 380px;
     }
-
+    .invite-name {
+        font-size: 36px;
+    }
 
     .invite {
         padding-top: 50px;
@@ -141,17 +143,16 @@
     .invite-date {
         font-size: 20px;
     }
-    .invite-name {
-        font-size: 26px;
-    }
+
     .invite svg {
         width: 210px;
         height: 210px;
     }
 
     .yes {
-        font-size: 26px;
+        font-size: 23px;
     }
+
 }
 
 @media (max-width: 375px) {
